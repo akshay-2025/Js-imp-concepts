@@ -1,6 +1,8 @@
 a@DESKTOP-QO228VE MINGW64 /d/Javascript Es6/Product Api - (path of file)
 
-$ git config --global user.name "Akshay"
+Step1: ***Note username and email should be same as mentioned in github repository ****
+ 
+$ git config --global user.name "akshay.2025"
 
 $ git config --global user.email "akshay.2025new@gmail.com"
 
@@ -63,6 +65,15 @@ git remote -v
 git push -u origin main
 (** now ur files are pushed to github)
 
+Now you will get pop Sign with your Github...Click it
+Then now u will get Authorize git-ecosystem... Click on it
+Now u will get Authentication suceeded.
+Automatically in git u will get: Enumerating objects: 12, done.
+Now refresh github...files will be added in repository.
+Now this is your path: https://github.com/akshay-2025/Js-imp-concepts
+
+
+{ Note: Some errors below:
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/akshay-2025/Js-imp-concepts.git/'
 
@@ -72,7 +83,7 @@ git config --global user.name "akshay.2025"
 
 To exit git command: Press q
 
-
+}
 
 
 

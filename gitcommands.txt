@@ -1,0 +1,46 @@
+a@DESKTOP-QO228VE MINGW64 /d/Javascript Es6/Product Api - (path of file)
+
+$ git config --global user.name "Akshay"
+
+$ git config --global user.email "akshay.2025new@gmail.com"
+
+pwd => current working path
+
+echo "Hello this is test file." >> index .txt          (File created and text inside it)
+
+$ cat index.txt      (shows content written in file)
+
+------------------------------------------------------------------
+
+
+git init         
+-(now the files are in staging area means files will go into .git directory)
+
+ls   
+-(shows all files in folder)
+
+git status      
+-( to check if the files are in staging area...If it is red color then it is non staging area and green color means it is in staging area) 
+
+git add .      OR git add --a
+-(multiple files are added to staging area)
+
+touch one.txt      
+-(new file created)
+
+git status -s   or git status
+-(checks if files are added or not)
+-(Note git status -s will show capital A and M if the file is added and modified)
+
+
+
+
+
+
+
+
+
+
+
+
+

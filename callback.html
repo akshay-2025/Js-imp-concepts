@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback</title>
+</head>
+<body>
+    
+    <script>
+        
+        function test(x,y,callback){
+            console.log(x+y);
+            console.log("Printing inside function")
+            callback();
+
+        }
+
+        function secondFunction(){
+            console.log("i am a callback function");
+        }
+
+        test(3,4,secondFunction)
+  
+        
+    </script>
+</body>
+</html>

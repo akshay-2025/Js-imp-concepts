@@ -14,27 +14,63 @@ $ cat index.txt      (shows content written in file)
 
 
 git init         
--(now the files are in staging area means files will go into .git directory)
+-(*** now the files are in staging area means files will go into .git directory)
 
 ls   
 -(shows all files in folder)
 
 git status      
--( to check if the files are in staging area...If it is red color then it is non staging area and green color means it is in staging area) 
+-(*** to check if the files are in staging area...If it is red color then it is non staging area and green color means it is in staging area) 
 
 git add .      OR git add --a
--(multiple files are added to staging area)
+-(*** multiple files are added to staging area)
 
 touch one.txt      
 -(new file created)
 
 git status -s   or git status
 -(checks if files are added or not)
--(Note git status -s will show capital A and M if the file is added and modified)
+-(*** Note git status -s will show capital A and M if the file is added and modified)
+
+git commit -m "Day1 Work"
+-(** saves files)
+
+git log
+-(** shows all commit information)
+
+Now go to github account create new repository(folder in online account github)
+
+In git there are 2 branches:
+1] master   (default)
+2] main
+
+In github there are 2 branches:
+1] master
+2] main  (default)
+
+git branch
+(** to check which branch...currently it is in master branch)
+
+git branch -M main
+(*** switches to main branch)
+
+git remote add origin https://github.com/akshay-2025/Js-imp-concepts.git
+(** now add github project path...here origin is variable name given in command)
+
+git remote -v
+(gives url path of poject on github)
+
+git push -u origin main
+(** now ur files are pushed to github)
+
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/akshay-2025/Js-imp-concepts.git/'
 
 
+git remote set-url origin git@github.com:akshay-2025/Js-imp-concepts.git
+git config --global user.name "akshay.2025"
 
-
+To exit git command: Press q
 
 
 

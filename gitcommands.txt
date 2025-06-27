@@ -1,11 +1,15 @@
-a@DESKTOP-QO228VE MINGW64 /d/Javascript Es6/Product Api - (path of file)
+d/Javascript Es6/Product Api - Open this path in Git Bash
 
-Step1: ***Note username and email should be same as mentioned in github repository ****
- 
+Note: In Product Api folder we will store all files like index.html,callback.html etc.  
+
+
+**Step1: ***Note username and email should be same as mentioned in github repository ****
+======= 
 $ git config --global user.name "akshay.2025"
 
 $ git config --global user.email "akshay.2025new@gmail.com"
 
+================================================================
 pwd => current working path
 
 echo "Hello this is test file." >> index .txt          (File created and text inside it)
@@ -13,20 +17,28 @@ echo "Hello this is test file." >> index .txt          (File created and text in
 $ cat index.txt      (shows content written in file)
 
 ------------------------------------------------------------------
-
-
+**Step2:
+========
 git init         
 -(*** now the files are in staging area means files will go into .git directory)
 
+===================================================================
 ls   
 -(shows all files in folder)
 
+**Step3:
+========
 git status      
 -(*** to check if the files are in staging area...If it is red color then it is non staging area and green color means it is in staging area) 
 
+===============================================================================
+
+**Step4:
+========
 git add .      OR git add --a
 -(*** multiple files are added to staging area)
 
+========================================================================
 touch one.txt      
 -(new file created)
 
@@ -34,13 +46,21 @@ git status -s   or git status
 -(checks if files are added or not)
 -(*** Note git status -s will show capital A and M if the file is added and modified)
 
+**Step5:
+=========
 git commit -m "Day1 Work"
 -(** saves files)
 
+=================================================================================
+***Step6:
+========
 git log
 -(** shows all commit information)
+================================================================================
 
-Now go to github account create new repository(folder in online account github)
+***Step7:
+=========
+Assuming u have github account.Now go to github account create new repository(folder in online account github)
 
 In git there are 2 branches:
 1] master   (default)
@@ -50,36 +70,47 @@ In github there are 2 branches:
 1] master
 2] main  (default)
 
+========================================================================
+
+***Step8:
+=========
 git branch
 (** to check which branch...currently it is in master branch)
+========================================================================
 
+***Step9:
+=========
 git branch -M main
-(*** switches to main branch)
+(*** switches to main branch.We need to do this because git has default master branch and github has default main branch.So to make both equal we need to perform this step.)
 
+============================================================
+
+***Step10:
+==========
 git remote add origin https://github.com/akshay-2025/Js-imp-concepts.git
 (** now add github project path...here origin is variable name given in command)
+
+========================================================================
 
 git remote -v
 (gives url path of poject on github)
 
+***Step11:
+==========
 git push -u origin main
 (** now ur files are pushed to github)
 
-Now you will get pop Sign with your Github...Click it
+Now you will get popup.... Sign with your Github...Click on it
 Then now u will get Authorize git-ecosystem... Click on it
-Now u will get Authentication suceeded.
-Automatically in git u will get: Enumerating objects: 12, done.
+Now u will get confirmation message Authentication suceeded.
+Automatically in git u will get: Enumerating objects: 12, done....and so on.
 Now refresh github...files will be added in repository.
 Now this is your path: https://github.com/akshay-2025/Js-imp-concepts
 
 
-{ Note: Some errors below:
+{ Note: Some errors below due to wrong username while mentioning in gitbash:
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/akshay-2025/Js-imp-concepts.git/'
-
-
-git remote set-url origin git@github.com:akshay-2025/Js-imp-concepts.git
-git config --global user.name "akshay.2025"
 
 To exit git command: Press q
 
